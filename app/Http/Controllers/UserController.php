@@ -109,4 +109,5 @@ class UserController extends Controller{
         $otherUserTime = \DB::table('Users')->where('id',$otherConnectedUserId)->update(['phone_calls_time' => NULL]);
         return response()->json(compact('currUser','otherUserPhone','otherUserTime'));
     }
+    
 }
