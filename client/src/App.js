@@ -20,7 +20,7 @@ class App extends Component {
               <Route exact path = "/profile" component={UsersMain}/>
           </div>
        </div>
-  </Router> 
+    </Router> 
     );
   }
 }
